@@ -1,12 +1,4 @@
-// Thanks for checking out this project!
-// This was created by Alex Leybourne for fun in 2023
-// A lot of this code is old and unoptimised so please take it all witha grain of salt
-// If you have any questions or suggestions please feel free to reach out to me on twitter @alexleybourne
-// This is based of a Chrome Extension I made in 2021
-// https://github.com/alexleybourne/Google-Stack-Overflow
-// Have fun and have a nice day :)
-
-// Simple logic to use gpt 4 or gpt 3
+ // Simple logic to use gpt 4 or gpt 3
 const useChatGPT4 = false;
 const chatGPTUrl = `https://chat.openai.com/chat${
   useChatGPT4 ? '?model=gpt-4' : ''
